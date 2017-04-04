@@ -17,11 +17,11 @@ function makeStory() {
     var goo = document.getElementById('goo').value;
 
     // Set title of story. Use at least one form value in the title. (2 points)
-    title = "Buy" + body + "-" + goo + " Today!";
+    title = "Buy " + body + "-" + goo + " Today!";
 
 
     // Build story. you can add as many paragraphs as you like. (3 points)
-    story =  "And now, ladies and " + pln1 + ", an important commercial message from our," + n1 + " the manufacturer of new  and improved " + body + "-" + goo + ", the face cream for women." + body + "-" + goo + " now contains a new" + adj1 + " ingredient called 'Hexa-mone', which is made from distilled " + n2 + "juice. If you rub " + body + "-" + goo + "on your " + n3 + "every evening, your complexion will look as " + adj2 + "as a daisy. The famous Hollywood star," + celeb + ", says, 'I use"  + body + "-" + goo + " every day, and my complexion is always" + adj3 + " and my" + pln2 + " always have a youthful glow.' Yes," + body + "-" + goo + " is the" + adj4 + " cream of the stars. Remember, if you want a softer, smoother" + n4 + ", get" + body + "-" + goo + " in the handy" + num + "pound size at your friendly neighborhood" + n5 + " store.";
+    story =  "And now, ladies and " + pln1 + ", an important commercial message from our " + n1 + ", the manufacturer of new  and improved " + body + "-" + goo + ", the face cream for women." + body + "-" + goo + " now contains a new " + adj1 + " ingredient called 'Hexa-mone', which is made from distilled " + n2 + " juice. If you rub " + body + "-" + goo + " on your " + n3 + " every evening, your complexion will look as " + adj2 + " as a daisy. The famous Hollywood star, " + celeb + ", says, 'I use "  + body + "-" + goo + " every day, and my complexion is always " + adj3 + " and my " + pln2 + " always have a youthful glow.' Yes, " + body + "-" + goo + " is the " + adj4 + " cream of the stars. Remember, if you want a softer, smoother " + n4 + ", get " + body + "-" + goo + " in the handy " + num + "pound size at your friendly neighborhood " + n5 + " store.";
 
     // Display story by putting title & paragraphs into appropriate divs. (3 points)
       document.getElementById('title').innerHTML = title;
